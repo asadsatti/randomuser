@@ -4,15 +4,14 @@ App using Randomuser API
 Smmary:
 
 a) Your overall approach
-
 -Each API call loads 30 user records asynchronously
 -User Jackson to convert JSON for a use record to User object
 -User objects are stored an ArrayList to be used as a data source for RecyclerView
 -RecyclerView to display the list of users because RecyclerView requires to use ViewHolder pattern for better performance
--Choosen to dispaly user name and phone only for each user
+-Chosen to display user name and phone only for each user
 -Taping user's name converts the User object to JSON string and passes to user detail Activity 
 -User detail Activity loads user's detail in a fragment
--User object to JSON string conversion is done because I havn't implemented User as Parcelable which is needed in order to passto another Activity
+-User object to JSON string conversion is done because I haven’t implemented User as Parcelable which is needed in order to pass to another Activity
 -User's photo is also downloaded asynchronously
 
 b) What platform you chose and why you chose it
