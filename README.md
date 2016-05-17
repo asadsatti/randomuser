@@ -74,3 +74,6 @@ e) Given more time, what else would you have done to make the project more robus
 -Test with two pan devices e.g., tablets
 
 -Implement User class as Parcelable
+
+f) Download and unzip the project and open using Android Studio.
+
