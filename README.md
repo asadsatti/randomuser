@@ -7,7 +7,7 @@ a) Your overall approach
 
 -Each API call loads 30 user records asynchronously
 
--User Jackson to convert JSON for a use record to User object
+-Used Jackson to convert JSON for a user record to User object
 
 -User objects are stored an ArrayList to be used as a data source for RecyclerView
 
